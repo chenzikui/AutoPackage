@@ -1,0 +1,191 @@
+2017-11-27 18:02:59.000 xcodebuild[71302:962463] [MT] DVTPlugInManager: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for KSImageNamed.ideplugin (com.ksuther.KSImageNamed) not present
+2017-11-27 18:02:59.186 xcodebuild[71302:962463] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/VVDocumenter-Xcode.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2017-11-27 18:03:01.161 xcodebuild[71302:962464]  DTDeviceKit: deviceType from fc7320547ac9d0651ac61bcba9527093356f2e4d was NULL
+2017-11-27 18:03:11.058 xcodebuild[71509:963030] [MT] DVTPlugInManager: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for KSImageNamed.ideplugin (com.ksuther.KSImageNamed) not present
+2017-11-27 18:03:11.241 xcodebuild[71509:963030] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/VVDocumenter-Xcode.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2017-11-27 18:03:12.468 xcodebuild[71509:963078]  DTDeviceKit: deviceType from fc7320547ac9d0651ac61bcba9527093356f2e4d was NULL
+2017-11-27 18:10:47.667 xcodebuild[81093:990835] [MT] DVTPlugInManager: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for KSImageNamed.ideplugin (com.ksuther.KSImageNamed) not present
+2017-11-27 18:10:48.377 xcodebuild[81093:990835] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/VVDocumenter-Xcode.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2017-11-27 18:10:49.494 xcodebuild[81093:990835] [MT] IDEDistribution: -[IDEDistributionLogging _createLoggingBundleAtPath:]: Created bundle at path '/var/folders/3r/yvqj_nyx6n79l47qx3y2vf900000gp/T/xiaojiangshan_2017-11-27_18-10-49.457.xcdistributionlogs'.
+2017-11-27 18:13:40.330 altool[82681:994439] 10.4-style NSDateFormatter method called on a 10.0-style formatter, which doesn't work. Break on _NSDateFormatter_Log_New_Methods_On_Old_Formatters to debug. This message will only be logged once.
+2017-11-27 18:13:40.330 altool[82681:994439]  Error:
+[2017-11-27 18:12:29 CST] <main>  INFO: Transporter is skipping bundle update check: Already checked recently.
+[2017-11-27 18:12:29 CST] <main>  INFO: MD5 checksum calculation in the transporter will be skipped.
+[2017-11-27 18:12:29 CST] <main>  INFO: Logging level set to eXtreme
+[2017-11-27 18:12:29 CST] <main>  INFO: Logging configured successfully.
+[2017-11-27 18:12:29 CST] <main> DEBUG: Attempting refresh of configuration data from https://contentdelivery.itunes.apple.com/transporter/Defaults.properties
+[2017-11-27 18:12:30 CST] <main> DEBUG: Configuration refresh successful.
+[2017-11-27 18:12:30 CST] <main> DEBUG: Saving configuration to local path: /Users/DHB/.itmstransporter/Defaults.properties
+[2017-11-27 18:12:30 CST] <main>  INFO: iTMSTransporter : iTunes Store Transporter [1.9.6]
+[2017-11-27 18:12:30 CST] <main>  INFO: OS identifier: Mac OS X 10.12.6 (x86_64); jvm=25.71-b02; jre=1.8.0-u131-b11-iTMSTransporter-b02
+[2017-11-27 18:12:30 CST] <main>  INFO: Memory: [JVM] 1017M free, 1038M total, 1820M max [System] (Physical) 1259M free, 8192M total (Swap) 997M free, 1024M total
+[2017-11-27 18:12:30 CST] <main>  INFO: Client: altool 1.1 (1034)
+[2017-11-27 18:12:30 CST] <main>  INFO: Upload mode selected.
+[2017-11-27 18:12:30 CST] <main> DBG-X: Memory: [JVM] 1016M free, 1038M total, 1820M max [System] (Physical) 1246M free, 8192M total (Swap) 997M free, 1024M total
+[2017-11-27 18:12:30 CST] <main> DBG-X: Using operation named: authenticateForTransportDiscovery
+[2017-11-27 18:12:30 CST] <main> DBG-X: Apple's web service operation input parameters:
+[2017-11-27 18:12:30 CST] <main> DBG-X:   parameter Application = iTMSTransporter
+[2017-11-27 18:12:30 CST] <main> DBG-X:   parameter BaseVersion = 1.9.6
+[2017-11-27 18:12:30 CST] <main> DBG-X:   parameter Client = altool
+[2017-11-27 18:12:30 CST] <main> DBG-X:   parameter ClientVersion = 1.1 (1034)
+[2017-11-27 18:12:30 CST] <main> DBG-X:   parameter OSIdentifier = Mac OS X 10.12.6 (x86_64); jvm=25.71-b02; jre=1.8.0-u131-b11-iTMSTransporter-b02
+[2017-11-27 18:12:30 CST] <main> DBG-X:   parameter StatisticsClientStartDateTimeZoneISO = 2017-11-27T18:12:30+08:00
+[2017-11-27 18:12:30 CST] <main> DBG-X:   parameter StatisticsPreviousCallDurationInSecs = 1.122019904
+[2017-11-27 18:12:30 CST] <main> DBG-X:   parameter TransporterArguments = -m upload -u support@rsung.com -sessionid **hidden value** -sharedsecret **hidden value** -f /var/folders/3r/yvqj_nyx6n79l47qx3y2vf900000gp/T/FE8CD7AF-80FA-4A30-B3A1-3E7EF46A951A/1296750746.itmsp -checksumValidation false -indicator true -v eXtreme -Dtransporter.client=altool -Dtransporter.client.version=1.1 (1034)
+[2017-11-27 18:12:30 CST] <main> DBG-X:   parameter Username = support@rsung.com
+[2017-11-27 18:12:30 CST] <main> DBG-X:   parameter Version = 1.9.6
+[2017-11-27 18:12:30 CST] <main> DBG-X:   parameter iTMSTransporterMode = upload
+[2017-11-27 18:12:30 CST] <main>  INFO: id = 20171127181230-247
+[2017-11-27 18:12:32 CST] <main> DBG-X: Apple's web service operation return value:
+[2017-11-27 18:12:32 CST] <main> DBG-X:   parameter PreferredTransports = [Aspera, Signiant, DAV]
+[2017-11-27 18:12:32 CST] <main> DBG-X:   parameter TransportHosts.Signiant = [sgr604.apple.com:44001]
+[2017-11-27 18:12:32 CST] <main> DBG-X:   parameter TransportHosts.DAV = [itmsdav.apple.com:443]
+[2017-11-27 18:12:32 CST] <main> DBG-X:   parameter TransportHosts.Aspera = [vgr501.apple.com:33001, vgr503.apple.com:33001, vgr502.apple.com:33001, vgr504.apple.com:33001]
+[2017-11-27 18:12:32 CST] <main>  INFO: Examining the package at: /var/folders/3r/yvqj_nyx6n79l47qx3y2vf900000gp/T/FE8CD7AF-80FA-4A30-B3A1-3E7EF46A951A/1296750746.itmsp
+[2017-11-27 18:12:32 CST] <main>  INFO: Ensuring that package has well formed metadata file...
+[2017-11-27 18:12:32 CST] <main> DEBUG: Getting case-sensitive metadata xml filename...
+[2017-11-27 18:12:32 CST] <main>  INFO: Gathering the list of valid files from the package ...
+[2017-11-27 18:12:32 CST] <main> DEBUG:   metadata.xml will be verified by Apple's web service to determine if it is a valid file.
+[2017-11-27 18:12:32 CST] <main> DEBUG:   xiaojiangshan.ipa will be verified by Apple's web service to determine if it is a valid file.
+[2017-11-27 18:12:32 CST] <main>  INFO: Finished gathering the list of valid files from the package.
+[2017-11-27 18:12:32 CST] <main> DEBUG:   Case-sensitive metadata filename is: metadata.xml
+[2017-11-27 18:12:32 CST] <main>  INFO: Performing authentication of package 1296750746.itmsp ...
+[2017-11-27 18:12:32 CST] <main> DBG-X: Memory: [JVM] 1012M free, 1047M total, 1820M max [System] (Physical) 1216M free, 8192M total (Swap) 997M free, 1024M total
+[2017-11-27 18:12:33 CST] <main> DBG-X: Deflated 614 bytes to 448
+[2017-11-27 18:12:33 CST] <main> DBG-X: Using operation named: validateMetadata
+[2017-11-27 18:12:33 CST] <main> DBG-X: Apple's web service operation input parameters:
+[2017-11-27 18:12:33 CST] <main> DBG-X:   parameter Application = iTMSTransporter
+[2017-11-27 18:12:33 CST] <main> DBG-X:   parameter BaseVersion = 1.9.6
+[2017-11-27 18:12:33 CST] <main> DBG-X:   parameter Client = altool
+[2017-11-27 18:12:33 CST] <main> DBG-X:   parameter ClientVersion = 1.1 (1034)
+[2017-11-27 18:12:33 CST] <main> DBG-X:   parameter Files = [metadata.xml, xiaojiangshan.ipa]
+[2017-11-27 18:12:33 CST] <main> DBG-X:   parameter Metadata = <?xml version="1.0" encoding="UTF-8"?>
+<package version="software5.4" xmlns="http://apple.com/itunes/importer">
+    <software_assets apple_id="1296750746"
+        bundle_short_version_string="2.0.0"
+        bundle_version="101"
+        bundle_identifier="rsung.dhb.xiaojiangshan"
+        app_platform="ios">
+        <asset type="bundle">
+            <data_file>
+                <file_name>xiaojiangshan.ipa</file_name>
+                <checksum type="md5">04cfb39711946d06b9c11c20f7bc3adf</checksum>
+                <size>43650793</size>
+            </data_file>
+        </asset>
+    </software_assets>
+</package>
+
+[2017-11-27 18:12:33 CST] <main> DBG-X:   parameter MetadataChecksum = 28edccb8b6ad3b439eaf7f13db4813c8
+[2017-11-27 18:12:33 CST] <main> DBG-X:   parameter MetadataCompressed = (suppressed)
+[2017-11-27 18:12:33 CST] <main> DBG-X:   parameter OSIdentifier = Mac OS X 10.12.6 (x86_64); jvm=25.71-b02; jre=1.8.0-u131-b11-iTMSTransporter-b02
+[2017-11-27 18:12:33 CST] <main> DBG-X:   parameter PackageName = 1296750746.itmsp
+[2017-11-27 18:12:33 CST] <main> DBG-X:   parameter PackageSize = 43651407
+[2017-11-27 18:12:33 CST] <main> DBG-X:   parameter StatisticsClientStartDateTimeZoneISO = 2017-11-27T18:12:33+08:00
+[2017-11-27 18:12:33 CST] <main> DBG-X:   parameter StatisticsPreviousCallDurationInSecs = 2.460437597
+[2017-11-27 18:12:33 CST] <main> DBG-X:   parameter TransporterArguments = -m upload -u support@rsung.com -sessionid **hidden value** -sharedsecret **hidden value** -f /var/folders/3r/yvqj_nyx6n79l47qx3y2vf900000gp/T/FE8CD7AF-80FA-4A30-B3A1-3E7EF46A951A/1296750746.itmsp -checksumValidation false -indicator true -v eXtreme -Dtransporter.client=altool -Dtransporter.client.version=1.1 (1034)
+[2017-11-27 18:12:33 CST] <main> DBG-X:   parameter Username = support@rsung.com
+[2017-11-27 18:12:33 CST] <main> DBG-X:   parameter Version = 1.9.6
+[2017-11-27 18:12:33 CST] <main> DBG-X:   parameter iTMSTransporterMode = upload
+[2017-11-27 18:12:33 CST] <main>  INFO: id = 20171127181233-051
+[2017-11-27 18:12:34 CST] <main> DBG-X: Apple's web service operation return value:
+[2017-11-27 18:12:34 CST] <main> DBG-X:   parameter FilesToUpload = [metadata.xml, xiaojiangshan.ipa]
+[2017-11-27 18:12:34 CST] <main> DBG-X:   parameter AssetsToDescribe = [{Role=source, Filename=xiaojiangshan.ipa, ShouldDescribeAsset=true, UTI=com.apple.ipa}]
+[2017-11-27 18:12:34 CST] <main> DBG-X:   parameter CPUToken = 4a08437b-3ddb-45b5-bb1c-5b3cced4fd1d/1511777554025
+[2017-11-27 18:12:34 CST] <main> DBG-X:   parameter Checksums = {xiaojiangshan.ipa=04cfb39711946d06b9c11c20f7bc3adf}
+[2017-11-27 18:12:34 CST] <main> DBG-X:   parameter FileSizes = {xiaojiangshan.ipa=43650793}
+[2017-11-27 18:12:34 CST] <main> DBG-X:   parameter MinimumFileSizeThresholdForCheckum = 104857600
+[2017-11-27 18:12:34 CST] <main> DBG-X:   parameter SoftwareMediaDescriptionFormat = binary
+[2017-11-27 18:12:34 CST] <main> DBG-X:   parameter SoftwareMediaDescriptionThresholds = {in-app-purchase-content={extensions=[pkg], size=100000000}, ccats={extensions=[pdf], size=100000000}, product-archive={extensions=[pkg], size=100000000}, bundle={extensions=[zip, ipa], size=100000000}, large-icon={extensions=[jpg, png, jpeg], size=100000000}}
+[2017-11-27 18:12:34 CST] <main> DBG-X:   parameter Success = true
+[2017-11-27 18:12:34 CST] <main> DBG-X:   parameter ProviderNameForToken = C6J8T6SJPD
+[2017-11-27 18:12:34 CST] <main>  INFO: The list of files requested for upload by Apple is: [metadata.xml, xiaojiangshan.ipa].  These are the files that will be uploaded.
+[2017-11-27 18:12:34 CST] <main>  INFO: Starting media analysis of assets
+[2017-11-27 18:12:35 CST] <main> DEBUG: Handling asset: filename=xiaojiangshan.ipa,uti=com.apple.ipa,role=source,describe=true
+[2017-11-27 18:12:35 CST] <main> DEBUG: Using container type tool name and version: iOS App Describer:1.25
+[2017-11-27 18:12:35 CST] <main> DEBUG: Using path: /var/folders/3r/yvqj_nyx6n79l47qx3y2vf900000gp/T/FE8CD7AF-80FA-4A30-B3A1-3E7EF46A951A/1296750746.itmsp/xiaojiangshan.ipa
+[2017-11-27 18:12:58 CST] <main> ERROR: description length:1035132
+[2017-11-27 18:12:58 CST] <main> DEBUG: Asset successfully described: com.apple.jingle.leghorn.software.AbstractSoftwareDescriber$1@246f8b8b
+[2017-11-27 18:12:58 CST] <main> DBG-X: Deflated 1038598 bytes to 72970
+[2017-11-27 18:12:58 CST] <main>  INFO: Asset media analysis has completed
+[2017-11-27 18:12:58 CST] <main> DBG-X: Memory: [JVM] 1013M free, 1045M total, 1820M max [System] (Physical) 1097M free, 8192M total (Swap) 997M free, 1024M total
+[2017-11-27 18:12:58 CST] <main> DBG-X: Using operation named: lookupTransportDiagnostic
+[2017-11-27 18:12:58 CST] <main> DBG-X: Apple's web service operation input parameters:
+[2017-11-27 18:12:58 CST] <main> DBG-X:   parameter Application = iTMSTransporter
+[2017-11-27 18:12:58 CST] <main> DBG-X:   parameter BaseVersion = 1.9.6
+[2017-11-27 18:12:58 CST] <main> DBG-X:   parameter Client = altool
+[2017-11-27 18:12:58 CST] <main> DBG-X:   parameter ClientVersion = 1.1 (1034)
+[2017-11-27 18:12:58 CST] <main> DBG-X:   parameter OSIdentifier = Mac OS X 10.12.6 (x86_64); jvm=25.71-b02; jre=1.8.0-u131-b11-iTMSTransporter-b02
+[2017-11-27 18:12:58 CST] <main> DBG-X:   parameter StatisticsClientStartDateTimeZoneISO = 2017-11-27T18:12:58+08:00
+[2017-11-27 18:12:58 CST] <main> DBG-X:   parameter StatisticsPreviousCallDurationInSecs = 1.242974494
+[2017-11-27 18:12:58 CST] <main> DBG-X:   parameter TransporterArguments = -m upload -u support@rsung.com -sessionid **hidden value** -sharedsecret **hidden value** -f /var/folders/3r/yvqj_nyx6n79l47qx3y2vf900000gp/T/FE8CD7AF-80FA-4A30-B3A1-3E7EF46A951A/1296750746.itmsp -checksumValidation false -indicator true -v eXtreme -Dtransporter.client=altool -Dtransporter.client.version=1.1 (1034)
+[2017-11-27 18:12:58 CST] <main> DBG-X:   parameter Username = support@rsung.com
+[2017-11-27 18:12:58 CST] <main> DBG-X:   parameter Version = 1.9.6
+[2017-11-27 18:12:58 CST] <main> DBG-X:   parameter iTMSTransporterMode = upload
+[2017-11-27 18:12:58 CST] <main>  INFO: id = 20171127181258-785
+[2017-11-27 18:13:02 CST] <main> DBG-X: Apple's web service operation return value:
+[2017-11-27 18:13:02 CST] <main> DBG-X:   parameter AsperaLoggingLevel = OFF
+[2017-11-27 18:13:02 CST] <main> DBG-X:   parameter SigniantLoggingLevel = OFF
+[2017-11-27 18:13:02 CST] <main> DBG-X:   testing host/port: vgr504.apple.com/33001
+[2017-11-27 18:13:06 CST] <aspera.util.SelectThread>  INFO: The upload of the file named /var/folders/3r/yvqj_nyx6n79l47qx3y2vf900000gp/T/2a44459c-0a61-4640-93fe-c9327af47e27488330830676605089dir/a4886be5-e1b1-4237-9903-19b17f07ed423172587136299971093.txt has started.
+[2017-11-27 18:13:07 CST] <aspera.util.SelectThread>  INFO:      File: /var/folders/3r/yvqj_nyx6n79l47qx3y2vf900000gp/T/2a44459c-0a61-4640-93fe-c9327af47e27488330830676605089dir/a4886be5-e1b1-4237-9903-19b17f07ed423172587136299971093.txt 11/11, 100% completed
+[2017-11-27 18:13:07 CST] <aspera.util.SelectThread>  INFO: The status is FINISHED for the file named /var/folders/3r/yvqj_nyx6n79l47qx3y2vf900000gp/T/2a44459c-0a61-4640-93fe-c9327af47e27488330830676605089dir/a4886be5-e1b1-4237-9903-19b17f07ed423172587136299971093.txt.
+[2017-11-27 18:13:07 CST] <main>  INFO: The session's final state is Complete
+[2017-11-27 18:13:07 CST] <main>  INFO: Number of files transferred: 1 .  Names of files transferred:
+[2017-11-27 18:13:07 CST] <main>  INFO:     /var/folders/3r/yvqj_nyx6n79l47qx3y2vf900000gp/T/2a44459c-0a61-4640-93fe-c9327af47e27488330830676605089dir/a4886be5-e1b1-4237-9903-19b17f07ed423172587136299971093.txt - Complete
+[2017-11-27 18:13:17 CST] <main> DEBUG: Using token file path /Users/DHB/.itmstransporter/UploadTokens/XiongZis-iMac.local_C6J8T6SJPD_1296750746.itmsp.token
+[2017-11-27 18:13:17 CST] <main> DEBUG: Attempting exclusive file lock on token file
+[2017-11-27 18:13:17 CST] <main> DEBUG: Token exists, examining
+[2017-11-27 18:13:22 CST] <main> DEBUG: Token pid: 67318, found process = false; my pid: 82839
+[2017-11-27 18:13:27 CST] <main> DEBUG: Reusing existing token: d3fc3dd4-4e7f-4874-8a48-88bbf685b1b6/1511774701152
+[2017-11-27 18:13:32 CST] <main> DEBUG: Set token: d3fc3dd4-4e7f-4874-8a48-88bbf685b1b6/1511774701152
+[2017-11-27 18:13:32 CST] <main> DBG-X: Memory: [JVM] 1003M free, 1045M total, 1820M max [System] (Physical) 1050M free, 8192M total (Swap) 997M free, 1024M total
+[2017-11-27 18:13:32 CST] <main> DBG-X: Deflated 614 bytes to 448
+[2017-11-27 18:13:32 CST] <main> DBG-X: Using operation named: validateAssets
+[2017-11-27 18:13:32 CST] <main> DBG-X: Apple's web service operation input parameters:
+[2017-11-27 18:13:32 CST] <main> DBG-X:   parameter Application = iTMSTransporter
+[2017-11-27 18:13:32 CST] <main> DBG-X:   parameter BaseVersion = 1.9.6
+[2017-11-27 18:13:32 CST] <main> DBG-X:   parameter CPUToken = d3fc3dd4-4e7f-4874-8a48-88bbf685b1b6/1511774701152
+[2017-11-27 18:13:32 CST] <main> DBG-X:   parameter Client = altool
+[2017-11-27 18:13:32 CST] <main> DBG-X:   parameter ClientVersion = 1.1 (1034)
+[2017-11-27 18:13:32 CST] <main> DBG-X:   parameter Files = [metadata.xml, xiaojiangshan.ipa]
+[2017-11-27 18:13:32 CST] <main> DBG-X:   parameter MetadataChecksum = 28edccb8b6ad3b439eaf7f13db4813c8
+[2017-11-27 18:13:32 CST] <main> DBG-X:   parameter MetadataCompressed = (suppressed)
+[2017-11-27 18:13:32 CST] <main> DBG-X:   parameter OSIdentifier = Mac OS X 10.12.6 (x86_64); jvm=25.71-b02; jre=1.8.0-u131-b11-iTMSTransporter-b02
+[2017-11-27 18:13:32 CST] <main> DBG-X:   parameter PackageName = 1296750746.itmsp
+[2017-11-27 18:13:32 CST] <main> DBG-X:   parameter PackageSize = 43651407
+[2017-11-27 18:13:32 CST] <main> DBG-X:   parameter StatisticsClientStartDateTimeZoneISO = 2017-11-27T18:13:32+08:00
+[2017-11-27 18:13:32 CST] <main> DBG-X:   parameter StatisticsPreviousCallDurationInSecs = 3.337345497
+[2017-11-27 18:13:32 CST] <main> DBG-X:   parameter Transport = Aspera
+[2017-11-27 18:13:32 CST] <main> DBG-X:   parameter TransporterArguments = -m upload -u support@rsung.com -sessionid **hidden value** -sharedsecret **hidden value** -f /var/folders/3r/yvqj_nyx6n79l47qx3y2vf900000gp/T/FE8CD7AF-80FA-4A30-B3A1-3E7EF46A951A/1296750746.itmsp -checksumValidation false -indicator true -v eXtreme -Dtransporter.client=altool -Dtransporter.client.version=1.1 (1034)
+[2017-11-27 18:13:32 CST] <main> DBG-X:   parameter Username = support@rsung.com
+[2017-11-27 18:13:32 CST] <main> DBG-X:   parameter Version = 1.9.6
+[2017-11-27 18:13:32 CST] <main> DBG-X:   parameter iTMSTransporterMode = upload
+[2017-11-27 18:13:32 CST] <main>  INFO: id = 20171127181332-678
+[2017-11-27 18:13:39 CST] <main> DBG-X: Apple's web service operation return value:
+[2017-11-27 18:13:39 CST] <main> DBG-X:   parameter Errors = [ERROR ITMS-90188: "Invalid Pre-Release Build. The CFBundleVersion key in the app’s Info.plist file contains a build number (101) that’s lower than the latest build number (204) that’s been submitted for the app version '2.0.0'."]
+[2017-11-27 18:13:39 CST] <main> DBG-X:   parameter FilesToUpload = [metadata.xml, xiaojiangshan.ipa]
+[2017-11-27 18:13:39 CST] <main> DBG-X:   parameter AssetsToDescribe = [{Role=source, Filename=xiaojiangshan.ipa, ShouldDescribeAsset=true, UTI=com.apple.ipa}]
+[2017-11-27 18:13:39 CST] <main> DBG-X:   parameter Checksums = {xiaojiangshan.ipa=04cfb39711946d06b9c11c20f7bc3adf}
+[2017-11-27 18:13:39 CST] <main> DBG-X:   parameter FileSizes = {xiaojiangshan.ipa=43650793}
+[2017-11-27 18:13:39 CST] <main> DBG-X:   parameter MinimumFileSizeThresholdForCheckum = 104857600
+[2017-11-27 18:13:39 CST] <main> DBG-X:   parameter SoftwareMediaDescriptionFormat = binary
+[2017-11-27 18:13:39 CST] <main> DBG-X:   parameter ErrorCode = 1102
+[2017-11-27 18:13:39 CST] <main> DBG-X:   parameter SoftwareMediaDescriptionThresholds = {in-app-purchase-content={extensions=[pkg], size=100000000}, ccats={extensions=[pdf], size=100000000}, product-archive={extensions=[pkg], size=100000000}, bundle={extensions=[zip, ipa], size=100000000}, large-icon={extensions=[jpg, png, jpeg], size=100000000}}
+[2017-11-27 18:13:39 CST] <main> DBG-X:   parameter ErrorMessage = ERROR ITMS-90188: "Invalid Pre-Release Build. The CFBundleVersion key in the app’s Info.plist file contains a build number (101) that’s lower than the latest build number (204) that’s been submitted for the app version '2.0.0'.
+ (1102)
+[2017-11-27 18:13:39 CST] <main> DBG-X:   parameter Success = false
+[2017-11-27 18:13:39 CST] <main> ERROR: ERROR ITMS-90188: "Invalid Pre-Release Build. The CFBundleVersion key in the app’s Info.plist file contains a build number (101) that’s lower than the latest build number (204) that’s been submitted for the app version '2.0.0'."
+[2017-11-27 18:13:39 CST] <main> DBG-X: The error code is: 1102
+[2017-11-27 18:13:39 CST] <main>  INFO: Done performing authentication.
+[2017-11-27 18:13:40 CST] <main> DBG-X: Returning 1
+2017-11-27 18:13:40.407 altool[82681:994439]  Out:
+
+
+
+Package Summary:
+ 
+1 package(s) were not uploaded because they had problems:
+	/var/folders/3r/yvqj_nyx6n79l47qx3y2vf900000gp/T/FE8CD7AF-80FA-4A30-B3A1-3E7EF46A951A/1296750746.itmsp - Error Messages:
+		description length:1035132
+		ERROR ITMS-90188: "Invalid Pre-Release Build. The CFBundleVersion key in the app’s Info.plist file contains a build number (101) that’s lower than the latest build number (204) that’s been submitted for the app version '2.0.0'."
