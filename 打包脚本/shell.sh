@@ -171,11 +171,11 @@ if [ x"$file2" != x"." -a x"$file2" != x".." -a x"$file2" != x".DS_Store" ]; the
         # 将-u 后面的XXX替换成自己的AppleID的账号，-p后面的XXX替换成自己的密码
         altoolPath="/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesSoftwareService.framework/Versions/A/Support/altool"
         #判断字符串 跟换账号
-        if [ "$scheme_name" == "zoli" ];then
+        if [ "$scheme_name" == "GuangZhouZuoLin" ];then
         echo "左邻账号"
         "$altoolPath" --validate-app -f ${exportIpaPath}/${scheme_name}.ipa -u 2556167603@qq.com -p Aa11223344 -t ios --output-format xml
         "$altoolPath" --upload-app -f ${exportIpaPath}/${scheme_name}.ipa -u 2556167603@qq.com -p Aa11223344 -t ios --output-format xml
-        elif [ "$scheme_name" == "richengjidian" ];then
+        elif [ "$scheme_name" == "richengshangcheng" ];then
         echo "日成机电账号"
         "$altoolPath" --validate-app -f ${exportIpaPath}/${scheme_name}.ipa -u richeng2004@163.com -p Rc15913155353 -t ios --output-format xml
         "$altoolPath" --upload-app -f ${exportIpaPath}/${scheme_name}.ipa -u richeng2004@163.com -p Rc15913155353 -t ios --output-format xml
