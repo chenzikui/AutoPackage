@@ -11,14 +11,14 @@
 	<key>stripSwiftSymbols</key>
 	<true/>
 	<key>teamID</key>
-	<string>4QQT9L8HZS</string>
+	<string>C6J8T6SJPD</string>
 	<key>provisioningProfiles</key>
 	<dict>
-		<key>rsung.dhb.richengshangcheng</key>
-		<string>RC_adhoc</string>
+		<key>rsung.dhb.canchupei</key>
+		<string>BrandAPP_ADHOC</string>
 	</dict>
 	<key>name</key>
-	<string>XIA MAO</string>
+	<string>Chengdu Rsung Information Technology Co., Ltd.</string>
 	<key>thinning</key>
 	<string>&lt;none&gt;</string>
 	<key>method</key>
