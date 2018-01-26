@@ -85,9 +85,34 @@ if [ x"$file2" != x"." -a x"$file2" != x".." -a x"$file2" != x".DS_Store" ]; the
     /usr/libexec/PlistBuddy -c "Set :CFBundleVersion $Fixed_Project_Build_Version" ${shell_path}/BrandAPPFiles/${file_name}/copyfiles/infoplist/Info.plist
 
     #设置当前版本号
-    Fixed_Project_BundleShortVersionString="2.0.0"
-    /usr/libexec/PlistBuddy -c "Set :CFBundleShortVersionString $Fixed_Project_BundleShortVersionString" ${Project_Plist}
-    /usr/libexec/PlistBuddy -c "Set :CFBundleShortVersionString $Fixed_Project_BundleShortVersionString" ${shell_path}/BrandAPPFiles/${file_name}/copyfiles/infoplist/Info.plist
+    Fixed_Project_BundleShortVersionString=$(/usr/libexec/PlistBuddy -c "print CFBundleShortVersionString" ${Project_Plist})
+    BundleShortVersionString1=${Fixed_Project_BundleShortVersionString%%.*}
+    BundleShortVersionString2=${Fixed_Project_BundleShortVersionString:2:1}
+    BundleShortVersionString3=${Fixed_Project_BundleShortVersionString##*.}
+    max_num="9"
+    if [ "$BundleShortVersionString3" = "$max_num" ];
+    then
+    BundleShortVersionString3="0"
+    if [ "$BundleShortVersionString2" = "$max_num" ];
+    then
+    BundleShortVersionString2="0"
+    BundleShortVersionString1=$(expr $BundleShortVersionString1 + 1)
+    else
+    BundleShortVersionString2=$(expr $BundleShortVersionString2 + 1)
+    fi
+    else
+    BundleShortVersionString3=$(expr $BundleShortVersionString3 + 1)
+    fi
+
+    Fixed_Project_BundleShortVersionString_new=${BundleShortVersionString1}"."${BundleShortVersionString2}"."${BundleShortVersionString3}
+    echo ${Fixed_Project_BundleShortVersionString_new}
+    /usr/libexec/PlistBuddy -c "Set :CFBundleShortVersionString $Fixed_Project_BundleShortVersionString_new" ${Project_Plist}
+    /usr/libexec/PlistBuddy -c "Set :CFBundleShortVersionString $Fixed_Project_BundleShortVersionString_new" ${shell_path}/BrandAPPFiles/${file_name}/copyfiles/infoplist/Info.plist
+
+
+
+#    /usr/libexec/PlistBuddy -c "Set :CFBundleShortVersionString $Fixed_Project_BundleShortVersionString" ${Project_Plist}
+#    /usr/libexec/PlistBuddy -c "Set :CFBundleShortVersionString $Fixed_Project_BundleShortVersionString" ${shell_path}/BrandAPPFiles/${file_name}/copyfiles/infoplist/Info.plist
 #    设置当前CFBundleIdentifier
     Fixed_Project_BundleIdentifier=`/usr/libexec/PlistBuddy -c "print CFBundleIdentifier" ${shell_path}/PackageConfig/${file_name}/packageInfo.plist`
     /usr/libexec/PlistBuddy -c "Set :CFBundleIdentifier $Fixed_Project_BundleIdentifier" ${Project_Plist}
@@ -97,6 +122,10 @@ if [ x"$file2" != x"." -a x"$file2" != x".." -a x"$file2" != x".DS_Store" ]; the
 #url_types=`/usr/libexec/PlistBuddy -c "print one" ${shell_path}/PackageConfig/${file_name}/packageInfo.plist`
 #/usr/libexec/PlistBuddy -c "Delete :CFBundleURLTypes:0" ${Project_Plist}
 #/usr/libexec/PlistBuddy -c "Add :CFBundleURLTypes:0 $url_types" ${Project_Plist}
+    #设置定位描述信息
+    Fixed_Project_NSLocationWhenInUseUsageDescription="您的当前位置将用于定位最新的收货地址和最新城市选择"
+    /usr/libexec/PlistBuddy -c "Set :NSLocationWhenInUseUsageDescription $Fixed_Project_NSLocationWhenInUseUsageDescription" ${Project_Plist}
+    /usr/libexec/PlistBuddy -c "Set :NSLocationWhenInUseUsageDescription $Fixed_Project_NSLocationWhenInUseUsageDescription" ${shell_path}/BrandAPPFiles/${file_name}/copyfiles/infoplist/Info.plist
 
     if [ $number == 1 ];
         then
